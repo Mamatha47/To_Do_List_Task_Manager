@@ -1,0 +1,83 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #c3e0e5, #a2d2ff);
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1e3d59;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-section input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  font-size: 14px;
+}
+
+.input-section button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #0077b6;
+  color: white;
+  cursor: pointer;
+}
+
+.filter-buttons {
+  margin: 15px 0;
+}
+
+.filter-buttons button {
+  margin: 0 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #0096c7;
+  color: white;
+  cursor: pointer;
+}
+
+.task-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  background: #76bc21;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.task-table th, .task-table td {
+  border: 1px solid #341616;
+  padding: 10px;
+}
+
+.task-table th {
+  background: #0077b6;
+  color: white;
+}
+
+.task-table tr.completed {
+  background: #d8f3dc;
+  text-decoration: line-through;
+  color: #333;
+}
+
+.task-table button {
+  margin: 0 3px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  background: #48cae4;
+  cursor: pointer;
+}
